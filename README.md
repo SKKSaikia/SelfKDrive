@@ -1,6 +1,6 @@
 # Self Driving RC | 🚦 🚘 
 
-Self driving radio controlled car by hacking the electronics and using the magic of Neural Networks. The whole project is sub-categorized as - (i) Input Unit, (ii) Processing Unit & (iii) Output Unit.
+Self driving radio controlled car by hacking the electronics and using the magic of Neural Networks. The whole project is sub-categorized as - (i) Input Unit, (ii) Processing Unit & (iii) Output Unit. | Goal : Self- driving and Front Collision avoidance
 
 - <b>Input Unit :</b> Comprises the vision and the input received by the car. Based upon the  input, the neural network decides and takes actions accordingly (actions being steer left, right, stop etc). The Input Unit comprises of Raspberry Pi Camera (For receiving Camera Frames / Vision by the front part of the car); SR04 Ultrasonic Ranging Module HC to receive distance measures from the front part of the car to objects encountered while driving forward. Both the camera and the Ultrasonic sensor are connected to the Raspberry Pi. The Raspberry Pi is connected to a laptop via Wifi and it sends all the data received from the the two inputs to the laptop in real time over Wi-Fi. The Raspberry Pi is being powered by a portable battery onboard the rc car. 
 
