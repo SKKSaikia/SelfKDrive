@@ -1,4 +1,4 @@
-# Self Driving RC | 🚗
+# Self Driving RC | 🚦 🚘 
 
 Building a self driving car by hacking a RC car using arduino and raspberry pi.
 The whole project has 3 units - input Unit, Processing Unit & The Output Unit.
