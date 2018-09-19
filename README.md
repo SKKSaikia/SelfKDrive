@@ -1,7 +1,8 @@
 # Self Driving RC | 🚦 🚘 
 
-Building a self driving car by hacking a RC car using arduino and raspberry pi.
-The whole project has 3 units - input Unit, Processing Unit & The Output Unit.
+Self driving radio controlled car by hacking the electronics and using the magic of Neural Networks. The whole project is sub-categorized as - (i) Input Unit, (ii) Processing Unit & (iii) Output Unit.
+
+- <b>Input Unit :</b> Comprises the vision and the input received by the car. Based upon the processed input, the neural networks decides and takes actions accordingly (actions being steer left, right, stop). The Input Unit comprises of Raspberry Pi Camera (For Camera Frames / Vision received by the front part of the car); SR04 Ultrasonic Ranging Module HC to receive distance measures from the car to front objects encountered while driving forward. Both the camera and the Ultrasonic sensor are connected to the Raspberry Pi. The Raspberry Pi is connected to a laptop via Wifi and it sends all the Data received from the the two inputs to the laptop in real time over Wi-Fi. The Raspberry Pi is being powered with a portable battery onboard the rc car. 
 
 <strong>Input Unit: </strong> The Car  + Raspberry pi + Ultrasonic Sensor + Pi-Camera
 <strong>Processing Unit: </strong> Computer + OpenCV (py)
