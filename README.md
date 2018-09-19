@@ -6,9 +6,9 @@ Self driving radio controlled car by hacking the electronics and using the magic
 
 - <b>Processing Unit :</b> The processing section comprises of training and processing the input data with a Neural Network. The Processed input helps give autonomus instructions to the transmitter in real time.
 
-- <b>Output Unit :</b>Arduino is connected to the laptop which picks up the real time direction instructions. The GPIO pins of the arduino is in turn connected to the original transmitter of the RC car. The transmitter is hacked and is soldered to 4 GPIO pins of arduino. Based on the instructions, the rc car moves in real time.
+- <b>Output Unit :</b> Arduino is connected to the laptop which picks up the real time direction instructions. The GPIO pins of the arduino is in turn connected to the original transmitter of the RC car. The transmitter is hacked and is soldered to 4 GPIO pins of arduino. Based on the instructions, the rc car moves in real time.
 
-<b>The Overall Flow :</b>
+<b>The Overall Flow :</b> Ultrasonic sensor sends distance data and the Raspberry Pi camera sends frames to the Raspberry Pi. The Raspberry Pi sends those data to a laptop via Wifi. Neural Network Algorithms in the laptop processes the input data and decides whether to move left, right, forward or to stop. Everything happens in real time. The laptop is connected to an Arduino, which is in turn connected to the original transmitter. The transmitter is hacked ( The controls in the transmitter (original left, right, forward or stop) are soldered to 4 GPIO pins of the arduino). Based on the autonomous real time instructions from the Neural Network in the laptop; the transmitter sends instructions accordingly to the receiver in the rc car. The receiver in the RC car wasn't hacked and it connects to the transmitter over 2.4 Ghz.
 
 
 + For Object detection  - haar cascade classifier
